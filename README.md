@@ -5,11 +5,26 @@ Implementation of a tiny neural network from scratch in C++ and training it in p
 In this project I tried to build a little feed forward neural network which simulates the behaviour of the truth table of the XOR logical operation.
 So I built the neural network and then a training function with the stochastic gradient descent inside, in the most basilar version with a mini batch concerning the whole dataset, so without shuffling data. In our case "data" just means the input of the truth table (following):
 
-inputs            outputs
-0 0               0
-0 1               1
-1 0               1
-1 1               0
+inputs   
+
+0 0               
+
+0 1               
+
+1 0               
+
+1 1               
+
+
+outputs
+
+0
+
+1
+
+1
+
+0
 
 As you can see in the repository there are 3 different .cpp files:
 seriale.cpp   openmp.cpp  mpi.cpp
